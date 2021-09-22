@@ -1,19 +1,33 @@
 .navbar-brand img {
-    height: 100px;
+  height: 100px;
 }
 
 #fees i:before {
-    font-size: 20px;
-    margin-right: 10px;
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 375px) {
-    .navbar-brand img {
-        height: 60px;
-    }
+  .navbar-brand img {
+    height: 60px;
+  }
 }
 
 .google-form-wrap {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.calendar img {
+  height: 90%;
+  width: 100%;
+}
+
+.iFont {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.divvy {
+  background-color: blue;
 }
