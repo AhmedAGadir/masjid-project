@@ -9,24 +9,23 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
-
-.staff-tile {
-  border: black 1px solid;
-  /* background-color: blue; */
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column;
+.gridTitle {
+  border-bottom: 2px solid #00695d;
 }
 
-.avatar {
-  border-bottom: black 1px solid;
-  text-align: center;
-  font-size: 100px;
-  color: white;
+.leftBorder {
+  border-left: 2px solid #00695d;
 }
 
-.details {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+.iFont {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.arabicTitle {
+  border-bottom: 2px solid white;
+}
+
+.arabicBorder {
+  border-left: 2px solid white;
 }
