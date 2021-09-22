@@ -7,9 +7,21 @@
   margin-right: 10px;
 }
 
-@media only screen and (max-width: 375px) {
+.mobileDashedLine {
+  display: none;
+}
+
+@media only screen and (max-width: 376px) {
   .navbar-brand img {
     height: 60px;
+  }
+
+  .mobileDashedLine {
+    display: block;
+  }
+
+  .mobileStraightLine {
+    display: none;
   }
 }
 
